@@ -1,0 +1,31 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("RobloxForRetards(Private)", "DarkTheme")
+
+local Tab = Window:NewTab("Aimbot_Esp")
+local Section = Tab:NewSection("Aimbot Scripts here")
+
+Section:NewButton("Airhub", "airhub haves aimbot and wallhacks its pretty cool btw", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+end)
+----------------------------------------------Godly Scripts
+local Tab = Window:NewTab("Random")
+local Section = Tab:NewSection("Random Scripts")
+
+Section:NewButton("Dahood aimbot", "dahood shit", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/Dahood%20aimbot"))()
+end)
+----------------------------------------- fix area
+local Tab = Window:NewTab("fix")
+local Section = Tab:NewSection("Fixes Your Scripts")
+Section:NewButton("Rejoin", "Rejoins You To The Same Server.", function()
+    print("Clicked")
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
+
+Section:NewButton("Reset", "Resets the humanoid", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)

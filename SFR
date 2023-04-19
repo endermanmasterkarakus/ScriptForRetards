@@ -13,6 +13,11 @@ end)
 local Tab = Window:NewTab("Random")
 local Section = Tab:NewSection("Random Scripts")
 
+Section:NewButton("Decaying Winter", "The Most Powerfull Decaying Winter Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/decaying_winter/main/GOODWILL_COMMAND_SCRIPT'),true))()
+end)
+
 Section:NewButton("Dahood aimbot", "dahood shit", function()
     print("Clicked")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/Dahood%20aimbot"))()

@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("RobloxForRetards(Private)", "DarkTheme")
+local Window = Library.CreateLib("ScriptsForRetards", "DarkTheme")
 
 local Tab = Window:NewTab("Aimbot_Esp")
 local Section = Tab:NewSection("Aimbot Scripts here")

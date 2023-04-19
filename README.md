@@ -1,2 +1,2 @@
-# ScriptForRetards
-a script for retards
+# ScriptsForRetards
+a scripts for retards

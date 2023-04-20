@@ -2,6 +2,23 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 local Window = Library.CreateLib("ScriptsForRetards", "DarkTheme")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Aimbot ESP
+
 local Tab = Window:NewTab("Aimbot_Esp")
 local Section = Tab:NewSection("Aimbot Scripts here")
 
@@ -9,7 +26,40 @@ Section:NewButton("Airhub", "airhub haves aimbot and wallhacks its pretty cool b
     print("Clicked")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
 end)
-----------------------------------------------Godly Scripts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Random Scripts
 local Tab = Window:NewTab("Random")
 local Section = Tab:NewSection("Random Scripts")
 
@@ -22,8 +72,68 @@ Section:NewButton("Dahood aimbot", "dahood shit", function()
     print("Clicked")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/Dahood%20aimbot"))()
 end)
------------------------------------------ fix area
-local Tab = Window:NewTab("fix")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--MİSC
+local Tab = Window:NewTab("Misc")
+local Section = Tab:NewSection("Humanoid Changers")
+
+Section:NewSlider("WalkSpeed", "Changes Your Humanoid Walkspeed", 250, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("JumpPower", "Changes Your Humanoid JumpPower", 250, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpHeight = s
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--fix area
+local Tab = Window:NewTab("Fix")
 local Section = Tab:NewSection("Fixes Your Scripts")
 Section:NewButton("Rejoin", "Rejoins You To The Same Server.", function()
     print("Clicked")
@@ -34,3 +144,41 @@ Section:NewButton("Reset", "Resets the humanoid", function()
     print("Clicked")
     game.Players.LocalPlayer.Character.Humanoid.Health = 0
 end)
+
+Section:NewButton("infinite yield", "Multi Command Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+-- Settings
+local Tab = Window:NewTab("Settings")
+local Section = Tab:NewSection("Settings")
+
+Section:NewKeybind("UI TOGGLE", "toggle your ui with keybind", Enum.KeyCode.L, function()
+	Library:ToggleUI()
+end)
+
+
+
+
+
+
+
+
+-- Credits
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Created By : 444hz")
+Section:NewLabel("Published By : FurkanScripting")
+Section:NewLabel("Protected By : MoonsecV3")
+Section:NewLabel("UI library : Kavo")

@@ -68,9 +68,9 @@ Section:NewButton("Decaying Winter", "The Most Powerfull Decaying Winter Script"
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/decaying_winter/main/GOODWILL_COMMAND_SCRIPT'),true))()
 end)
 
-Section:NewButton("Dahood", "OP ASF SCRIPT", function()
+Section:NewButton("Dahood", "RayX", function()
     print("Clicked")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/Dahood%20aimbot"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
 
 Section:NewButton("Criminality", "Femware hub", function()

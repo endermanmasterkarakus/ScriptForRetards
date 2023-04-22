@@ -78,6 +78,16 @@ Section:NewButton("Criminality", "Femware hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
 end)
 
+Section:NewButton("Bedwars", "VAPEV4", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("Arsenal", "DexHub", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
+end)
+
 
 
 
@@ -185,3 +195,11 @@ local Section = Tab:NewSection("Created By : 444hz")
 Section:NewLabel("Published By : FurkanScripting")
 Section:NewLabel("Protected By : MoonsecV3")
 Section:NewLabel("UI library : Kavo")
+-- devvvvv
+local Tab = Window:NewTab("Dev Helper (W.I.P)")
+local Section = Tab:NewSection("These Scripts Helps To Scripts Devs")
+
+Section:NewButton("Coords Finder", "helps you to create a teleporting script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/coords%20finder%20rts"))()
+end)

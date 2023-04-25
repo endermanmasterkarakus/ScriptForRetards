@@ -88,6 +88,15 @@ Section:NewButton("Arsenal", "DexHub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
 end)
 
+Section:NewButton("Project Slayers", "cool", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Valynium/main/Loader.lua"))()
+end)
+
+Section:NewButton("Ball And Axe", "VGHUB", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/typicalcold/roblox/main/Ball%20and%20axe", true))()
+end)
 
 
 

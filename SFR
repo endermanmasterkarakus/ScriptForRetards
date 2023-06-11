@@ -1,217 +1,215 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    
-    local Window = Library.CreateLib("ScriptsForRetards", "DarkTheme")
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    --Aimbot ESP
-    
-    local Tab = Window:NewTab("Aimbot_Esp")
-    local Section = Tab:NewSection("Aimbot Scripts here")
-    
-    Section:NewButton("Airhub", "airhub haves aimbot and wallhacks its pretty cool btw", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
-    end)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    --Random Scripts
-    local Tab = Window:NewTab("Random")
-    local Section = Tab:NewSection("Random Scripts")
-    
-    Section:NewButton("Decaying Winter", "The Most Powerfull Decaying Winter Script", function()
-        print("Clicked")
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/decaying_winter/main/GOODWILL_COMMAND_SCRIPT'),true))()
-    end)
-    
-    Section:NewButton("Dahood", "RayX", function()
-        print("Clicked")
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
-    end)
-    
-    Section:NewButton("Criminality", "Femware hub", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
-    end)
-    
-    Section:NewButton("Bedwars", "VAPEV4", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-    end)
-    
-    Section:NewButton("Arsenal", "DexHub", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
-    end)
-    
-    Section:NewButton("Project Slayers", "cool", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Valynium/main/Loader.lua"))()
-    end)
-    
-    Section:NewButton("Ball And Axe", "VGHUB", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/typicalcold/roblox/main/Ball%20and%20axe", true))()
-    end)
-    
-    Section:NewButton("Combat Warriors", "tickware", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tickwares/tickware/main/Tickware"))()
-    end)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    --MİSC
-    local Tab = Window:NewTab("Misc")
-    local Section = Tab:NewSection("Humanoid Changers")
-    
-    Section:NewSlider("WalkSpeed", "Changes Your Humanoid Walkspeed", 250, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-    end)
-    
-    Section:NewSlider("JumpPower", "Changes Your Humanoid JumpPower", 250, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-        game.Players.LocalPlayer.Character.Humanoid.JumpHeight = s
-    end)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    --fix area
-    local Tab = Window:NewTab("Fix")
-    local Section = Tab:NewSection("Fixes Your Scripts")
-    Section:NewButton("Rejoin", "Rejoins You To The Same Server.", function()
-        print("Clicked")
-        game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
-    end)
-    
-    Section:NewButton("Reset", "Resets the humanoid", function()
-        print("Clicked")
-        game.Players.LocalPlayer.Character.Humanoid.Health = 0
-    end)
-    
-    Section:NewButton("infinite yield", "Multi Command Script", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-    end)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    -- Settings
-    local Tab = Window:NewTab("Settings")
-    local Section = Tab:NewSection("Settings")
-    
-    Section:NewKeybind("UI TOGGLE", "toggle your ui with keybind", Enum.KeyCode.L, function()
-    	Library:ToggleUI()
-    end)
-    
-    
-    
-    
-    
-    
-    
-    
-    -- Credits
-    local Tab = Window:NewTab("Credits")
-    local Section = Tab:NewSection("Created By : 444hz")
-    Section:NewLabel("Published By : FurkanScripting")
-    Section:NewLabel("Protected By : MoonsecV3")
-    Section:NewLabel("UI library : Kavo")
-    -- devvvvv
-    local Tab = Window:NewTab("Dev Helper (W.I.P)")
-    local Section = Tab:NewSection("These Scripts Helps To Scripts Devs")
-    
-    Section:NewButton("Coords Finder", "helps you to create a teleporting script", function()
-        print("Clicked")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/coords%20finder%20rts"))()
-    end)
+
+local Window = Library.CreateLib("ScriptsForRetards", "DarkTheme")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Aimbot ESP
+
+local Tab = Window:NewTab("Aimbot_Esp")
+local Section = Tab:NewSection("Aimbot Scripts here")
+
+Section:NewButton("Airhub", "airhub haves aimbot and wallhacks its pretty cool btw", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--Random Scripts
+local Tab = Window:NewTab("Random")
+local Section = Tab:NewSection("Random Scripts")
+
+Section:NewButton("Decaying Winter", "The Most Powerfull Decaying Winter Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/decaying_winter/main/GOODWILL_COMMAND_SCRIPT'),true))()
+end)
+
+Section:NewButton("Dahood", "RayX", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+Section:NewButton("Criminality", "Femware hub", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
+end)
+
+Section:NewButton("Bedwars", "VAPEV4", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("Arsenal", "DexHub", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
+end)
+
+Section:NewButton("Project Slayers", "Sylveon", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/projectslayers", true))()
+end)
+
+Section:NewButton("Ball And Axe", "VGHUB", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/typicalcold/roblox/main/Ball%20and%20axe", true))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--MİSC
+local Tab = Window:NewTab("Misc")
+local Section = Tab:NewSection("Humanoid Changers")
+
+Section:NewSlider("WalkSpeed", "Changes Your Humanoid Walkspeed", 250, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("JumpPower", "Changes Your Humanoid JumpPower", 250, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpHeight = s
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--fix area
+local Tab = Window:NewTab("Fix")
+local Section = Tab:NewSection("Fixes Your Scripts")
+Section:NewButton("Rejoin", "Rejoins You To The Same Server.", function()
+    print("Clicked")
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end)
+
+Section:NewButton("Reset", "Resets the humanoid", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+Section:NewButton("infinite yield", "Multi Command Script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+-- Settings
+local Tab = Window:NewTab("Settings")
+local Section = Tab:NewSection("Settings")
+
+Section:NewKeybind("UI TOGGLE", "toggle your ui with keybind", Enum.KeyCode.L, function()
+	Library:ToggleUI()
+end)
+
+
+
+
+
+
+
+
+-- Credits
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Created By : 444hz")
+Section:NewLabel("Published By : FurkanScripting")
+Section:NewLabel("Protected By : MoonsecV3")
+Section:NewLabel("UI library : Kavo")
+-- devvvvv
+local Tab = Window:NewTab("Dev Helper (W.I.P)")
+local Section = Tab:NewSection("These Scripts Helps To Scripts Devs")
+
+Section:NewButton("Coords Finder", "helps you to create a teleporting script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/coords%20finder%20rts"))()
+end)

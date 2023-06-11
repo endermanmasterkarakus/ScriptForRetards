@@ -87,12 +87,19 @@ Section:NewButton("Arsenal", "DexHub", function()
     print("Clicked")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
 end)
-
+--------------------------
 Section:NewButton("Project Slayers", "Sylveon", function()
     print("Clicked")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/projectslayers", true))()
 end)
 
+Section:NewButton("Project Slayers (MOBILE)", "Sylveon", function()
+    print("Clicked")
+    local LoaderUrl = "https://raw.githubusercontent.com/ogamertv12/SylveonHub/main/Mobile.lua"
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet(LoaderUrl))()
+end)
+---------------------
 Section:NewButton("Ball And Axe", "VGHUB", function()
     print("Clicked")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/typicalcold/roblox/main/Ball%20and%20axe", true))()

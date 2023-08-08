@@ -108,7 +108,7 @@ end)
 
 Section:NewButton("Big Paintball", "paint dildo", function()
     print("Clicked")
-    loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AndrewDarkyy/NOWAY/main/darkyyware.lua"))()
 end)
 
 

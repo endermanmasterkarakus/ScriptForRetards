@@ -127,8 +127,18 @@ Section:NewButton("Kat", "i want to get sex", function()
 end)
 
 
+--Lightux
+local Tab = Window:NewTab("LightuxHub")
+local Section = Tab:NewSection("Key Required")
+Section:NewButton("Lightux", "Click to run the script", function()
+    print("Clicked")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+end)
 
-
+Section:NewLabel("Games That Supports")
+Section:NewDropdown("Click Me To See The List", "DropdownInf", {"Zombie Attack","All of Us Are Dead", "LUCKY BLOCKS Battlegrounds", "Tower Of Hell", "Every Second You Get +1 Jump Power", "Prison Life", "Shadow Boxing Battles", "Driving Empire"}, function(currentOption)
+    print(currentOption)
+end)
 
 
 

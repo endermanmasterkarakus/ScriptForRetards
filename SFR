@@ -116,7 +116,15 @@ Section:NewButton("Jailbreak", "man being a racist is cool", function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"))()
 end)
 
+Section:NewButton("Grand Piece Online", "niggers", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CFA-HUB/CFA-HUB/main/cfahubfree.lua"))()
+end)
 
+Section:NewButton("Steeps Steeps", "Sex time", function()
+    print("Clicked")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/MetaShrimps/Oxygen/main/DetectionScripts/STEEP%20STEPS'))()
+end)
 
 
 

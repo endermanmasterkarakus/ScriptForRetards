@@ -123,7 +123,7 @@ end)
 
 Section:NewButton("Steeps Steeps", "Sex time", function()
     print("Clicked")
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/MetaShrimps/Oxygen/main/DetectionScripts/STEEP%20STEPS'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Cutsences/SteepSteps/main/SteepSteps.lua'))()
 end)
 
 

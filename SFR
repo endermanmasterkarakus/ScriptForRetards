@@ -121,10 +121,6 @@ Section:NewButton("Grand Piece Online", "niggers", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CFA-HUB/CFA-HUB/main/cfahubfree.lua"))()
 end)
 
-Section:NewButton("Steeps Steeps", "Sex time", function()
-    print("Clicked")
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Cutsences/SteepSteps/main/SteepSteps.lua'))()
-end)
 
 
 

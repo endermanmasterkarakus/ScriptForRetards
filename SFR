@@ -106,7 +106,10 @@ Section:NewButton("Shindo Life", "Premier X", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 end)
 
-
+Section:NewButton("Big Paintball", "paint dildo", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
+end)
 
 
 

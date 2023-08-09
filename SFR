@@ -131,7 +131,10 @@ Section:NewButton("Dingus", "Be Fr gay sex is the best", function()
     loadstring(game:HttpGet("https://api-sirclub.onrender.com/scripts/raw/MainFile.lua"))()
 end)
 
-
+Section:NewButton("Cook Burgers", "its pretty cool", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/cook%20burgers", true))() 
+end)
 
 
 

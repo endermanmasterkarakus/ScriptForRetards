@@ -126,6 +126,14 @@ Section:NewButton("Kat", "i want to get sex", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
 end)
 
+Section:NewButton("Dingus", "Be Fr gay sex is the best", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://api-sirclub.onrender.com/scripts/raw/MainFile.lua"))()
+end)
+
+
+
+
 
 --Lightux
 local Tab = Window:NewTab("LightuxHub")

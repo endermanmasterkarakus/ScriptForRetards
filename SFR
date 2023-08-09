@@ -128,7 +128,7 @@ end)
 
 Section:NewButton("Dingus", "Be Fr gay sex is the best", function()
     print("Clicked")
-    loadstring(game:HttpGet("https://api-sirclub.onrender.com/scripts/raw/MainFile.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/robloxshits/main/dingus"))()
 end)
 
 Section:NewButton("Cook Burgers", "its pretty cool", function()

@@ -133,8 +133,16 @@ end)
 
 Section:NewButton("Cook Burgers", "its pretty cool", function()
     print("Clicked")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/cook%20burgers", true))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/cook%20burgers", true))()
 end)
+
+Section:NewButton("MM2", "Ah Fuck its cool", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
+end)
+
+
+
 
 
 

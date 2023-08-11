@@ -141,7 +141,10 @@ Section:NewButton("MM2", "Ah Fuck its cool", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
 end)
 
-
+Section:NewButton("Basketball Legends", "yagiz beni sik", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/Basketball%20Legends"))()
+end)
 
 
 

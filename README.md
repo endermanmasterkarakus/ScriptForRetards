@@ -4,5 +4,5 @@
 
 - status : active
 
-copy
+.copy
 loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/ScriptForRetards/main/SFR"))()

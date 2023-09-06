@@ -1,12 +1,12 @@
 # ScriptsForRetards
-*
+```
 🟩 -  working
 🟥 -  not working
 🟨 - Updating... / Down For a update
 ⬛ - patched
 🔳 - Final Version / no more updates
 🔄 - sfr reborn is coming
-*
+```
 - A project that which makes you to only execute 1 script and use more scripts at a time (basically its a script hub)
 
 

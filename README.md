@@ -1,6 +1,6 @@
 # ScriptsForRetards
 - A project that which makes you to only execute 1 script and use more scripts at a time (basically its a script hub)
-
+- this project is discountied I am currently working on S.F.R v2
 
 - status : 🔳
 ```
